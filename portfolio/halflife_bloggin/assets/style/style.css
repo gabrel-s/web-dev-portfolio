@@ -1,0 +1,119 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css");
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size:18px;
+}
+/*ESTRUTURA*/
+main{
+    background-image: 
+    /*linear-gradient(rgb(255,255,255,0.4), rgba(255,255,255,0.4)),*/
+    url("https://www.halflifeuplink.com/hlulsl/hlulsl-1.jpg")/*
+    url("https://c.tenor.com/1KiAoO8t_Z8AAAAC/combine-hl2.gif")*/;
+    background-repeat:repeat;
+    background-attachment:fixed;
+    background-position:center;
+}
+body *:not(header *){
+    align-items:center;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+}
+header{
+    background-color:white;
+    border:1px solid black;
+    width:100%;
+    height:100px;
+    position:sticky;
+    top:0px;
+}
+main{
+    padding-top:30px;
+}
+nav:not(#header_nav) > ul{
+    list-style:circle;
+}
+section{
+    background-color: white;
+    border: 3px solid black;
+    padding-top:30px;
+    margin-top:30px;
+    width:800px;
+    height:100%;
+}
+figure{
+    border:2px solid black;
+    background-color:black;
+    width:600px;
+    height:auto;
+    margin-bottom:35px;
+    padding:15px;
+}
+figcaption{
+    background-color: black;
+    color:white;
+    font-style:italic;
+    text-align:center;
+}
+article{
+    padding:30px;
+    width:800px;
+    height:100%;
+}
+footer img{
+    height:179px;
+    width:800px;
+}
+
+/*TAGS INDIVIDUAIS*/
+/*header*/
+a{
+    padding:10px;
+}
+#header_title, nav li{
+    display:inline;
+    height:inherit;
+}
+#header_title{
+    font-size:3em;
+    padding-right:500px;
+    text-decoration:underline;
+}
+/*main*/
+p{
+    color:black;
+    display:inline-block;
+    text-align:justify;
+    padding-bottom:20px;
+}
+img{
+    border:3px solid orange;
+    height:400px;
+    align-items:center;
+}
+h1:not(#header_title){
+    border:2px solid black;
+    background-color:orange;
+    font-weight:bolder;
+    margin-bottom:35px;
+    width:100%;
+}
+
+/*COMPATIBILIDADE*/
+@media only screen and (max-width:1500px){
+    #header_title{
+        display:block;
+        text-align:center;
+        padding:0;
+    }
+}
+@media (max-width:500px){
+    #header_title{
+        display:none;
+    }
+    a{
+        font-size:0.5em;
+    }
+}

@@ -1,0 +1,50 @@
+body{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	background-image:url("https://wallpaperaccess.com/full/1219598.jpg");
+	background-repeat:repeat-y;
+	background-attachment:fixed;
+	background-position:center;
+}
+header{
+	color:white;
+	margin-top: 30px;
+	width:65%;
+}
+header h1{
+	margin:30px;
+}
+header, article{
+	background-color:black;
+	border:5px solid white;
+	border-radius:12px;
+}
+body, header, section, figure{
+	align-items: center;
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+#intro{ width:65%; }
+article{
+	color:white;
+	font-size:1.5em;
+	height:auto;
+	margin:30px;
+	width:30%;
+}
+article h1, #intro_header{
+	font-weight:bolder;
+	font-style:italic;
+	text-align:center;
+}
+article p  {
+	margin:30px;
+	text-align:justify;
+}
+.figure_left, img{
+	float:left;
+	height:400px;
+	margin:30px;
+}

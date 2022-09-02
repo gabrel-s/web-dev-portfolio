@@ -22,6 +22,41 @@
     </header>
     <main>
       <!--section>
+
+	  <form name="meuForm">
+	    <input type="text" name="nome"  placeholder="Nome"  >
+	    <input type="text" name="email" placeholder="E-mail">
+	  </form>
+
+	  <!– atributos invalidados para ilustrar: →
+	   <form name="formEspelho" –style="display:none">
+	     <input –type="hidden" name="nome" >
+	     <input –type="hidden" name="email">
+	   </form>
+
+	   <script>
+	     function handleForm (e){
+	     let input = e.target.name;
+	     let value = e.target.value;
+	     try { document.forms["formEspelho"][input].value = value }
+	     catch (e) { console.warn("Parece que o formulário espelho ainda não foi gerado.") }
+	     }
+	     meuForm = document.forms["meuForm"];
+	     meuForm.onchange = handleForm;
+	   </script>
+
+	   <script>
+	     function formFill(nome, email){ 
+	     meuForm.elements.nome.value  = nome;
+	     meuForm.elements.email.value = email;
+	     }
+	     /* Só altera meuForm: */
+	     formFill("Fulano", "fulano@g.com")
+
+	   </script>
+
+	   meuForm.elements.nome.dispatchEvent(new Event("change", {bubbles:true}))
+
 	<h1>25/12/22</h1>
 	<figure>
 	  <img src="qhttps://i.kym-cdn.com/photos/images/original/001/369/415/88e.gif" alt="bullsquid do half-life 1... eu acho">

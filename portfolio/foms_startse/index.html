@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="" href="style.css">
+        <meta charset="utf-8">
+        <title>FORMULÁRIO</title>
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <h1>Contato</h1>
+            <!--    DADOS PESSOAIS  -->
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+                    <p>
+                        <label for="nome" class="obrigatorio">Nome:*</label>
+                        <input type="text" name="nome" id="nome" placeholder="Nome completo" required>
+                    </p>
+                    <p>
+                        <label for="email" class="obrigatorio">E-mail:*</label>
+                        <input type="mail" name="email" id="email" placeholder="exemplo@gmail.com" required>
+                    </p>
+                </fieldset>
+            </form>
+            <!--    ASSUNTO (SELECT/OPTION)     -->
+            <form>
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+                    <option value="" selected></option>
+                    <option value="reclamacao">Reclamação</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="elogio">Elogio</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </form>
+            <!--    ASSUNTO (FIELDSET)      -->
+            <fieldset>
+                <legend>Assunto</legend>
+                <input type="radio" name="assunto" value="reclamacao" id="reclamacao">
+                <label for="reclamacao">Reclamação</label>
+                <input type="radio" name="assunto" value="sugestao" id="sugestao">
+                <label for="sugestao">Reclamação</label>
+                <input type="radio" name="assunto" value="elogio" id="elogio">
+                <label for="elogio">Elogio</label>
+                <input type="radio" name="assunto" value="outro" id="outro">
+                <label for="sugestao">Outro</label>
+            </fieldset>
+            <!--    TEXTAREA    -->
+            <section>
+                <label for="mensagem" class="obrigatorio">Mensagem:*</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Digite a mensagem" required></textarea>
+            </section>
+            <!--    CHECKBOX    -->
+            <section class="cadastro">
+                <input type="checkbox" name="cadastro" id="cadastro">
+                <label for="cadastro">Desejo receber E-mails informativos</label>
+            </section>
+            <!--    BOTÃO   -->
+            <section class="cadastro">
+                <input type="submit" value="Enviar mensagem">
+            </section>
+        </main>
+        <footer></footer>
+    </body>
+</html>

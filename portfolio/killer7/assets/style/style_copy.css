@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap")
+@font-face{
+    font-family:"LHF Convecta BASE";
+    font-size:30px;
+    src: url("LHF_Convecta_BASE.ttf");
+}
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color:black;
+}
+header{
+    font-family:LHF Convecta Base;
+    font-size:11em;
+    margin:auto;
+    text-align:center;
+    text-shadow: 4px 8px white, -4px -8px 8px red;
+}
+.logo_effect1{
+    width:900px;
+    height:100px;
+    background-color:red;
+    position:relative;
+    animation-name:example;
+    animation-duration:10s;
+    z-index:"1";
+}
+#logo_text::after{
+    font-size:400px;
+    position:relative;
+    top:150px; 
+    right:95px;
+    z-index:-1;
+    content:"7";
+}
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }

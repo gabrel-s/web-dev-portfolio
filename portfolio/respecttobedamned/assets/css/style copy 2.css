@@ -1,0 +1,87 @@
+/*
+	- Como combinar eletores (especializar)????
+	- Seletores de descendente e de filho...
+*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+main, footer{
+	font-family:"Times New Roman";
+	margin:10px;
+}
+body{
+	background-color:black;
+	color:white;
+}
+nav{
+	border:2px solid white;
+	margin:20px;
+}
+a{
+	color:orange;
+	font-size:24px;
+	text-decoration:none;
+}
+a[href="#"]{
+	color:gray;
+	text-decoration:line-through;
+}
+a:hover{
+	text-decoration:underline;
+}
+a:active{
+	color:red;
+}
+textarea, ::placeholder{
+	background-color:black;
+	height:300px;
+	width:500px;
+	color:#00FF33;
+	font-size:18px;
+}
+summary{
+	border:2px solid white;
+	border-collapse:collapse;
+	font-size: 48px;
+}
+article > p{
+	color:white;
+	font-size:24px;
+	margin:10px;
+}
+article > p::first-letter{
+	font-size:64px;
+}
+section{
+	margin:10px;
+	border:2px solid white;
+	width:50%;
+}
+.caixa{
+	border:2px solid white;
+	margin:10px;
+	text-decoration: none;
+}
+h1, h2{
+	margin:10px;
+}
+table, td, tr, th{
+	border:2px solid white;
+}
+img{
+	height:200px;
+}
+.user{
+	width:auto;
+	height:400px;
+} 
+.user_input {
+	width:90%;
+	height:400px;
+}
+::selection{
+	background:white ;
+	color:black;
+}

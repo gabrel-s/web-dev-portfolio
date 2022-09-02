@@ -1,4 +1,4 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css");
+ @import url("https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css");
 *{
     margin:0;
     padding:0;
@@ -11,9 +11,9 @@ main{
     /*linear-gradient(rgb(255,255,255,0.4), rgba(255,255,255,0.4)),*/
     url("https://www.halflifeuplink.com/hlulsl/hlulsl-1.jpg")/*
     url("https://c.tenor.com/1KiAoO8t_Z8AAAAC/combine-hl2.gif")*/;
-    background-repeat:repeat;
     background-attachment:fixed;
-    background-position:center;
+    background-position:bottom-center;
+    background-size:cover;
 }
 body *:not(header *){
     align-items:center;
@@ -29,32 +29,27 @@ header{
     position:sticky;
     top:0px;
 }
-main{
-    padding-top:30px;
-}
 nav:not(#header_nav) > ul{
     list-style:circle;
 }
 section{
     background-color: white;
     border: 3px solid black;
-    padding-top:30px;
-    margin-top:30px;
+    margin:45px;
+
     width:800px;
-    height:100%;
 }
 figure{
-    border:2px solid black;
     background-color:black;
-    width:600px;
+    width:auto;
     height:auto;
-    margin-bottom:35px;
-    padding:15px;
+    margin:5px;
 }
 figcaption{
     background-color: black;
     color:white;
     font-style:italic;
+    margin:15px;
     text-align:center;
 }
 article{
@@ -92,10 +87,18 @@ img{
     border:3px solid orange;
     height:400px;
     align-items:center;
+    margin:30px 30px 0 30px;
+}
+img[alt]{
+    color:white;
+    text-align:center;
+    overflow:scroll;
+    padding:15px;
 }
 h1:not(#header_title){
-    border:2px solid black;
     background-color:orange;
+    border-bottom:3px solid black;
+    border-top:3px solid black;
     font-weight:bolder;
     margin-bottom:35px;
     width:100%;
@@ -109,7 +112,7 @@ h1:not(#header_title){
         padding:0;
     }
 }
-@media (max-width:500px){
+@media (max-width:360px){
     #header_title{
         display:none;
     }

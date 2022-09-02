@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=width-device, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>FORUM</title>
+  </head>
+  <body>
+    <header>
+      <form>
+	<input id="input_name" placeholder="Nome">
+	<input id="input_title" placeholder="Título">
+	<input id="input_text" placeholder="Texto">
+	<input id="input_file" type="file">
+	<button hidden>SUBMIT</button>
+      </form>
+    </header>
+    <main>
+      <table id="table_model">
+	<caption>static sites are the best</caption>
+	<thead>
+	  <!--INSERIR TÍTULO-->
+	  <th id="table_title" colspan="2">TITULO</th>
+	</thead>
+	<tbody>
+	  <!--INSERIR TEXTO-->
+	  <tr>
+	    <th id="table_name">NOME</th>
+	    <td id="table_text">TEXTO</td>
+	  </tr>
+	</tbody>
+	<tfoot>
+	  <!--INSERIR DATA-->
+	  <tr>
+	    <td id="table_date" colspan="2">DATA</td>
+	  </tr>
+	</tfoot>
+      </table>
+    </main>
+    <footer>
+      <small>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html, body{
+    height:100%;
+}
+main{
+    margin:auto;
+}
+main{
+    background-color:white;
+    border:5px solid black;
+    height:900px;
+    width:50%;
+}
+header{
+    background-color:#474A51;
+    height:100px;
+}

@@ -1,5 +1,5 @@
 async function beginPopulate() {
-    const requestURL = './json/resume.json';
+    const requestURL = "https://github.com/gabrel-s/web-dev-portfolio/blob/main/assets/js/json/resume.json";
     const request = new Request(requestURL);
 
     const response = await fetch(request);

@@ -9,17 +9,18 @@ async function beginPopulate() {
 }
 
 function headerPopulate(obj){
-    const header = document.querySelector('header');
-    const subject = document.createElement('h1');
-    const status = document.createElement('h1');
-    const sub_status = document.createElement('h1');
+    const header_div = document.getElementById('header_div');
     
-    subject.textContent = obj.subject;
-    status.textContent = obj.status;
+    const subject = document.createElement('p');
+    const status = document.createElement('p');
+    const sub_status = document.createElement('p');
+    
+    subject.textContent = `SUBJECT: ${obj.subject}`;
+    status.textContent = `STATUS: ${obj.status}`;
     sub_status.textContent = obj.sub_status;
-    header.appendChild(subject);
-    header.appendChild(status);
-    header.appendChild(sub_status);
+    header_div.appendChild(subject);
+    header_div.appendChild(status);
+    header_div.appendChild(sub_status);
 }
 
 beginPopulate();

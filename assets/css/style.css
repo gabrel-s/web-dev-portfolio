@@ -4,82 +4,28 @@
     padding:0;
 }
 body{
-    font-size:10px;
+    font-size:12px;
     font-family:'Poppins', 'Times New Roman', Times, serif;
     scroll-behavior:smooth;
 }
-header, section{
+header, div{
     display:flex;
     
     align-items:center;
     flex-direction:column;
     justify-content:center;
 }
+#header_div p {
+    font-family:Arial;
+    font-size:2em;
+    margin:15px;
+    text-transform:uppercase;
+}
 header{
-    background-image:url(https://getwallpapers.com/wallpaper/full/5/c/d/626399.jpg);
-    background-size: cover;
-    /*background-attachment:fixed;*/
-    background-position: top center;
+    background-color:#000;
+    color:gray;
     height:100vh;
 }
-.intro_txt{
-    background-color: rgba(0,0,0, 0.9);
-    border: 3px solid red;
-    padding:75px;
-}
-h1{
-    animation:h1_shadow 5s ease infinite;
-    color:white;
-    font-size: 18rem;
-    font-weight: bold;
-    letter-spacing: 0.05rem;
-}
-hr{
-    animation:hr_enlarge 5s ease;
-    border:none;
-    border-top:3px double white;
-    color:white;
-    width:80%;
-}
-p{
-    color:white;
-    font-size: 2rem;
-    letter-spacing: 0.1rem;
-    margin: 5px;
-    text-align:center;
-}
-@keyframes h1_shadow{
-    0%{text-shadow: 0px 0px white;}
-    50%{text-shadow: 10px 10px #FF1E00;}
-    100%{text-shadow: 0px 0px white;}
-}
-@keyframes hr_enlarge{
-    0%{width:0px;}
-    100{width:50%;}
-}
-
-@media only screen and (max-width: 1200px){
-    .intro_txt{
-	padding:10px;
-	width:95%;
-    }
-    h1{
-	font-size:15vmin;
-    }
-    p{
-	font-size:5vmin;
-    }
-}
-
-@media only screen and (min-height: 1368px){
-    .intro_txt{
-	padding:10px;
-	width:95%;
-    }
-    h1{
-	font-size:15vmin;
-    }
-    p{
-	font-size:5vmin;
-    }
+noscript{
+    font-size:5em;
 }

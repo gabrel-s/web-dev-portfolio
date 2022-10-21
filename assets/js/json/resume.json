@@ -3,14 +3,10 @@
     'status':'Desenvolvedor Web Full Stack',
     'sub_status':'Estudando',
 
-    'objetivo':'Elaborar e participar da criação de grandes projetos para chegar ao topo da minha profissão como engenheiro web.'
+    'objetivo':'Elaborar e participar da criação de grandes projetos para chegar ao topo da minha profissão como engenheiro web.',
     'contatos': {
-        'mail':'gabrielsantos3238@gmail.com',
-        'irc':'',
-        'xmpp':'',
-        'pgp-key':'',
+        'mail':'gabrielsantos3238@gmail.com'
     },
-    
     
     'skills':['HTML', 'CSS', 'JavaScript', 'Mariadb']
 }

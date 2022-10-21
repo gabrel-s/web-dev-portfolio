@@ -1,6 +1,16 @@
 {
-    "subject":"Gabriel Santos de Lima",
-    "status":"Desenvolvedor Web Full Stack",
-    "sub_status":"Estudando",
-    "skills":["HTML", "CSS", "JavaScript", "Mariadb"]
+    'subject':'gabrel-s',
+    'status':'Desenvolvedor Web Full Stack',
+    'sub_status':'Estudando',
+
+    'objetivo':'Elaborar e participar da criação de grandes projetos para chegar ao topo da minha profissão como engenheiro web.'
+    'contatos': {
+        'mail':'gabrielsantos3238@gmail.com',
+        'irc':'',
+        'xmpp':'',
+        'pgp-key':'',
+    },
+    
+    
+    'skills':['HTML', 'CSS', 'JavaScript', 'Mariadb']
 }

@@ -1,6 +1,6 @@
 {
-    'subject':'gabrel-s',
-    'status':'Desenvolvedor Web Full Stack',
-    'sub_status':'Estudando',    
-    'skills':['HTML', 'CSS', 'JavaScript', 'Mariadb']
+    "subject":"gabrel-s",
+    "status":"Desenvolvedor Web Full Stack",
+    "sub_status":"Estudando",    
+    "skills":["HTML", "CSS", "JavaScript", "Mariadb"]
 }

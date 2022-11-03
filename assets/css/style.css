@@ -2,28 +2,42 @@
     box-sizing:border-box;
     margin:0;
     padding:0;
+    scroll-behavior: smooth;
 }
-body{
+html{
     font-size:12px;
     font-family:'Poppins', 'Times New Roman', Times, serif;
     scroll-behavior:smooth;
 }
 header, div{
-    display:flex;
-    
+    display:grid;
     align-items:center;
-    flex-direction:column;
-    justify-content:center;
+    justify-items: center;
 }
-#header_div p {
+header{
+    background-color:#000;
+    color:gray;
+    height:100vh;
+}
+#headerStatus p {
     font-family:Arial;
     font-size:2em;
     margin:15px;
     text-transform:uppercase;
 }
-header{
-    background-color:#000;
-    color:gray;
+main{
+    height:100vh;
+}
+#resumeColumn{
+    background-color:black;
+    margin-left:0;
+    right:0;
+    position:absolute;
+    height:100%;
+    width:50%;
+}
+footer{
+    background-color:#e65400;
     height:100vh;
 }
 noscript{

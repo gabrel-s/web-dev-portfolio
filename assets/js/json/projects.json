@@ -1,22 +1,22 @@
 {
-    "astronomia":{
-	"name":"Site de astronomia",
-	"description":"Carl Sagan estaria orgulhoso",
-	"lang-focus":"HTML / CSS"
-    },
-    "data_tempo":{
-	"name":"Data Tempo",
-	"description":"Uma página que mostra a data e o tempo. Um projeto mais com umais mirabolante do que ele se parece ser.",
-	"lang-focus":"HTML / CSS / JS"
-    },
-    "half-life_bloggin":{
-	"name":"Half-Life: Bloggin",
-	"description":"Um site em formato de blog, dedicado para fãs. Não tem texto nenhum, criado apenas como exercício para usar CSS.",
-	"lang-focus":"HTML / CSS"
-    },
-    "maximum_business":{
-	"name":"Maximum Business",	
-	"description":"Um modelo de site de negócios com design moderno.",
-	"lang-focus":"HTML / CSS"
-    }
+        "astronomia": {
+                "name": "Site de astronomia",
+                "description": "Carl Sagan estaria orgulhoso!",
+                "lang-focus": "HTML / CSS"
+        },
+        "data_tempo": {
+                "name": "Data Tempo",
+                "description": "Uma página que mostra a data e o tempo. Um projeto mais com umais mirabolante do que ele se parece ser.",
+                "lang-focus": "HTML / CSS / JS"
+        },
+        "half-life_bloggin": {
+                "name": "Half-Life: Bloggin",
+                "description": "Um site em formato de blog, dedicado para fãs. Não tem texto nenhum, criado apenas como exercício para usar CSS.",
+                "lang-focus": "HTML / CSS"
+        },
+        "maximum_business": {
+                "name": "Maximum Business",
+                "description": "Um modelo de site de negócios com design moderno.",
+                "lang-focus": "HTML / CSS"
+        }
 }

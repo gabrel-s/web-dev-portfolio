@@ -1,6 +1,52 @@
 {
-    "subject":"gabrel-s",
-    "status":"Desenvolvedor Web Full Stack",
-    "sub_status":"Estudando",    
-    "skills":["HTML", "CSS", "JavaScript", "Mariadb"]
+        "subject": "gabrel-s",
+        "status": "Desenvolvedor Web Full Stack",
+        "sub_status": "Estudando",
+        "objetivo": "Elaborar e participar da criação de grandes projetos para chegar ao topo da minha profissão como engenheiro web.",
+        "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Mariadb"
+        ],
+        "idiomas": [
+                "Português (nativo)",
+                "Inglês (B2)",
+                "Francês (A2)"
+        ],
+        "exp": [
+                {
+                        "exp.name": "Colégio Pedro II, Humaitá II — Monitor de informática",
+                        "exp.date": "2017 - 2019",
+                        "exp.brief": "Trabalhando com o ensino de informática educativa, comecei a ter mais experiência na área, ensinando para outros alunos conteúdos de programação e uso básico de computadores."
+                }
+        ],
+        "formacao": [
+                {
+                        "formacao.name": "Colégio Pedro II, Humaitá II — Ensino médio completo",
+                        "formacao.date": "2015 - 2021",
+                        "formacao.brief": ""
+                },
+                {
+                        "formacao.name": "DELF — Nível A2",
+                        "formacao.date": "2019",
+                        "formacao.brief": ""
+                },
+                {
+                        "formacao.name": "Yázigi, Curso de inglês — Nível B2",
+                        "formacao.date": "2017 - 2020",
+                        "formacao.brief": "Depois de anos tendo contato constante com a língua inglesa, e aprendendo o máximo que podia com materiais didáticos da escola, estava na hora de finalmente oficializar o meu ensino."
+                },
+                {
+                        "formacao.name": "Startse, curso",
+                        "formacao.date": "ABRIL DE 2022 - AGOSTO DE 2022",
+                        "formacao.brief": "A partir desse curso comecei os meus estudos na área de desenvolvimento web fullstack, aperfeiçoando meus conhecimentos e adquirindo mais experiência e interesse pela área."
+                }
+        ],
+        "projetos": [
+                {
+                        "proj.name": "GitHub — web-dev-portfolio",
+                        "proj.brief": "Um repositório do github com pequenos projetos de desenvolvimento web."
+                }
+        ]
 }
